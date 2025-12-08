@@ -134,12 +134,21 @@ Drive Trigger (메타데이터 수신)
 
 <img width="1076" height="600" alt="스크린샷 2025-12-08 오후 2 02 03" src="https://github.com/user-attachments/assets/723295ad-92e8-465b-85c7-027c6d758076" />
 
+- GPT는 개인정보 보안 제한으로 인해서 왠만한 내용은 모두 출력을 하지 않길래 제한이 좀 덜하다는 gpt mini 모델을 사용하였습니다. 
+- Solar는 upstage에서 만든 한국어에 특화된 LLM 모델로 Solar OCR 이라는 노드가 있어서 'only text' 추출 기능 노드를 사용하였습니다. 
+- gpt와 gemini처럼 프롬프트를 입력할 수 있는 solar chat 이라는 노드를 사용하지 않았기 때문에 평가 점수에서 감안하여야 합니다. 
+- gemini는 개인정보 상관없이 모두 출력합니다. 이미지의 상단, 하단, 좌우측 등 위치별로 상세하게 출력한다는 차이가 있습니다. 
+
 <img width="1059" height="590" alt="스크린샷 2025-12-08 오후 2 02 10" src="https://github.com/user-attachments/assets/d9799c02-9262-40fa-bd10-0fad11423a77" />
 
 <img width="1054" height="586" alt="스크린샷 2025-12-08 오후 2 02 16" src="https://github.com/user-attachments/assets/3ced1b2a-b3af-41d6-b19d-861568d104c1" />
 
 <img width="1051" height="586" alt="스크린샷 2025-12-08 오후 2 02 28" src="https://github.com/user-attachments/assets/96ad4230-845c-42ad-8119-917b2f6915cd" />
 
+- 3개 모델을 평가하는 모델은 gpt 4.0 을 사용하였습니다. 
+- 성능 평가 지표는 유창성, 정확도, 매락이해도, 토큰갯수 등등을 고려하였으나 간단 버전( 점수, 한문장 요약)으로 자연어로 프롬프팅하였습니다. 
+- 동일 데이터임에도 실행할 때마다 다른 결과가 나와 재현성이 떨어지는 상태입니다. (ver2 시점)
+- 추후 좀 더 명확한 프롬프팅과 파인튜닝, RAG 등의 기법을 적용하고 풍부한 인풋 데이터와 함께 구체적인 샷 예시를 제공한다면 성능이 더욱 개선될 것으로 보입니다. 
 
 ### 유투브에서 시연영상 보기
 [v1. 드라이브-OCR-슬랙](https://www.youtube.com/watch?v=sradSejcFok)  
