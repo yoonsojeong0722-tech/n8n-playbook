@@ -141,7 +141,7 @@ Drive Trigger (메타데이터 수신)
 <img width="1051" height="586" alt="스크린샷 2025-12-08 오후 2 02 28" src="https://github.com/user-attachments/assets/96ad4230-845c-42ad-8119-917b2f6915cd" />
 
 
-### 유투브에서 보기
+### 유투브에서 시연영상 보기
 [v1. 드라이브-OCR-슬랙](https://www.youtube.com/watch?v=sradSejcFok)  
 [v2. 드라이브-3개모델-평가모델-gmail](https://www.youtube.com/watch?v=I7RMLHtbQv8)
 
