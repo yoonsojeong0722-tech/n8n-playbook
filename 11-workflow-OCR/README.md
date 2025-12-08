@@ -86,13 +86,13 @@ ___
 - Slack API (지정한 채널에 메시지 발송)
 
 ### 데이터베이스
-- 향후 확장 시 Google Sheets 또는 Airtabl, PostgresSQL 연동 가능
+- 향후 확장 시 Google Sheets 또는 Airtable, PostgresSQL 연동 가능
 
 ```
 Drive Trigger (메타데이터 수신) 
 → Drive Download (바이너리 데이터 확보) 
 → Edit Fields (바이너리 필드 이름 정돈) 
-→ Upstage OCR (분석 및 Slack Block JSON 출력) 
+→ Upstage OCR (분석 및 JSON 출력) 
 → Slack (메시지 전송)
 ```
 
@@ -131,9 +131,6 @@ Drive Trigger (메타데이터 수신)
 
 <img width="1684" height="828" alt="n8n-OCR-workflow-image-v2" src="https://github.com/user-attachments/assets/9cdf4464-cd9a-4aca-af71-f0f8dd3d861a" />
 
-<img width="699" height="743" alt="ocr-result1-1" src="https://github.com/user-attachments/assets/8ec6a44b-a743-440d-b58a-148ae14ee039" />
-
-<img width="679" height="685" alt="ocr-result1-2" src="https://github.com/user-attachments/assets/17617a2d-bd4a-4dd4-8ed5-22b407e00f93" />
 
 <img width="1076" height="600" alt="스크린샷 2025-12-08 오후 2 02 03" src="https://github.com/user-attachments/assets/723295ad-92e8-465b-85c7-027c6d758076" />
 
@@ -145,7 +142,7 @@ Drive Trigger (메타데이터 수신)
 
 
 ### 유투브에서 보기
-[v1. 드라이브-OCR-슬랙](https://www.youtube.com/watch?v=sradSejcFok)
+[v1. 드라이브-OCR-슬랙](https://www.youtube.com/watch?v=sradSejcFok)  
 [v2. 드라이브-3개모델-평가모델-gmail](https://www.youtube.com/watch?v=I7RMLHtbQv8)
 
 
