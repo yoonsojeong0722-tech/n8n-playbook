@@ -127,7 +127,26 @@ Drive Trigger (메타데이터 수신)
 - 평가 모델이 생성한 리포트를 기존 슬랙에서 **gmail**로 발송
 
 
+![n8n-OCR-workflow-v2](https://github.com/user-attachments/assets/39d9d015-5dee-4634-aae3-88e3028f4ef8)
 
+<img width="1684" height="828" alt="n8n-OCR-workflow-image-v2" src="https://github.com/user-attachments/assets/9cdf4464-cd9a-4aca-af71-f0f8dd3d861a" />
+
+<img width="699" height="743" alt="ocr-result1-1" src="https://github.com/user-attachments/assets/8ec6a44b-a743-440d-b58a-148ae14ee039" />
+
+<img width="679" height="685" alt="ocr-result1-2" src="https://github.com/user-attachments/assets/17617a2d-bd4a-4dd4-8ed5-22b407e00f93" />
+
+<img width="1076" height="600" alt="스크린샷 2025-12-08 오후 2 02 03" src="https://github.com/user-attachments/assets/723295ad-92e8-465b-85c7-027c6d758076" />
+
+<img width="1059" height="590" alt="스크린샷 2025-12-08 오후 2 02 10" src="https://github.com/user-attachments/assets/d9799c02-9262-40fa-bd10-0fad11423a77" />
+
+<img width="1054" height="586" alt="스크린샷 2025-12-08 오후 2 02 16" src="https://github.com/user-attachments/assets/3ced1b2a-b3af-41d6-b19d-861568d104c1" />
+
+<img width="1051" height="586" alt="스크린샷 2025-12-08 오후 2 02 28" src="https://github.com/user-attachments/assets/96ad4230-845c-42ad-8119-917b2f6915cd" />
+
+
+### 유투브에서 보기
+[v1. 드라이브-OCR-슬랙](https://www.youtube.com/watch?v=sradSejcFok)
+[v2. 드라이브-3개모델-평가모델-gmail](https://www.youtube.com/watch?v=I7RMLHtbQv8)
 
 
 
