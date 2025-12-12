@@ -20,10 +20,10 @@ ___
 
 ![n8n-OCR-workflow](https://github.com/user-attachments/assets/35cf05a1-e897-49fa-b4ee-f7d1a205c95d)
 
-인풋 데이터 (영수증, 처방전, 계약서 등)
+인풋 데이터 (영수증, 처방전, 계약서 등)  
 <img width="562" height="248" alt="n8n-OCR-input" src="https://github.com/user-attachments/assets/8cd7a321-1cad-43a3-88c5-e0ad4fa0e467" />
 
-아웃풋데이터 (텍스트 추출)
+아웃풋데이터 (텍스트 추출)  
 <img width="604" height="706" alt="n8n-OCR-output" src="https://github.com/user-attachments/assets/114c0478-ebae-4689-9a75-bf0aebd7d209" />
 
 
@@ -141,10 +141,10 @@ Drive Trigger (메타데이터 수신)
 
 <img width="1051" height="586" alt="스크린샷 2025-12-08 오후 2 02 28" src="https://github.com/user-attachments/assets/96ad4230-845c-42ad-8119-917b2f6915cd" />
 
-- 3개 모델을 평가하는 모델은 gpt 4.0 을 사용하였습니다. 
-- 성능 평가 지표는 유창성, 정확도, 매락이해도, 토큰갯수 등등을 고려하였으나 간단 버전( 점수, 한문장 요약)으로 자연어로 프롬프팅하였습니다. 
-- 동일 데이터임에도 실행할 때마다 다른 결과가 나와 재현성이 떨어지는 상태입니다. (ver2 시점)
-- 추후 좀 더 명확한 프롬프팅과 파인튜닝, RAG 등의 기법을 적용하고 풍부한 인풋 데이터와 함께 구체적인 샷 예시를 제공한다면 성능이 더욱 개선될 것으로 보입니다. 
+- 3개 모델을 평가하는 모델은 gpt 4.0 mini를 사용하였습니다. 
+- 성능 평가 지표는 유창성, 정확도, 매락이해도, 토큰갯수 등등을 고려하였으나 간단 버전( 점수와 한문장 요약)으로 프롬프팅하였습니다. 
+- 동일 데이터임에도 실행할 때마다 다른 결과가 나와 재현성이 떨어지는 한계가 있습니다. (ver2 시점)
+- 추후 좀 더 명확한 프롬프팅과 파인튜닝 등의 기법을 적용하고 풍부한 인풋 데이터와 함께 구체적인 샷 예시를 제공한다면 성능이 더욱 개선될 것입니다. 
 
 ### 유투브에서 시연영상 보기
 [v1. 드라이브-OCR-슬랙](https://www.youtube.com/watch?v=sradSejcFok)  
