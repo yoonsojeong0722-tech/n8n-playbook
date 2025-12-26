@@ -117,8 +117,8 @@
 ```jsx
 {
   "grant_type": "client_credentials",
-  "appkey": "PSeMMmgtMAUpkINnWm28NdhaHb9m2eTDWC9W",
-  "appsecret": "rA776zNMVdL0E7XM5a6cYgG9VUfcB/3NLMtia2IL8pdOuAg6aY5p6lmVZCEZ8fuGy0rPbg5q+Yn4SZ/Rltu6mRH53NAfvTo4tcag9aQjYAyFidLzIxw5V/N2Ahnxnvrx19/2d/M655HZQvKOK11gyphKtjC5yPxW3L/x+JX7S/pSxYpnmWs="
+  "appkey": "한국투자증권 발급받은 appkey",
+  "appsecret": "한국투자증권 발급받은 appsecret="
 }
 ```
 
